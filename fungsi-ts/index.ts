@@ -9,7 +9,7 @@
 // let nama = (name, usia) => {
 //   console.log(`nama saya ${name} dan umur saya ${usia} tahun`);
 // };
-// nama("lita", 22);
+// nama("kko", 22);
 
 // //* default value, yang mana jadi parameternya itu atau function tsb sudah di tetapkan tipe nya
 // //* dan kalau default itu bisa di isi atau tidak
@@ -33,7 +33,7 @@
 
 //? anonymous function
 
-const istri = ["lita", "siti", "sari"];
+const istri = ["komo", "siti", "sari"];
 istri.forEach((nama, index) => {
   console.log(`istri ke ${index + 1} namanya ${nama}`);
 });

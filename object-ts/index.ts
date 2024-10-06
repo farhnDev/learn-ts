@@ -1,16 +1,14 @@
 let mahasiswa = {
-  nama: "lita",
+  nama: "komenk",
   umur: 22,
   aktif: true,
-};  //? object 1
-
+}; //? object 1
 
 interface Mahasiswa {
-    nama: string;
-    umur: number;
-    aktif: boolean;
-    }  //? object yang tanpa di inisialisasiikan dari awal nilaiinya dan bisa di timpa dengan nilai baru
-
+  nama: string;
+  umur: number;
+  aktif: boolean;
+} //? object yang tanpa di inisialisasiikan dari awal nilaiinya dan bisa di timpa dengan nilai baru
 
 // mahasiswa = {
 //     nama: "asep",
