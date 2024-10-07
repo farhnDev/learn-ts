@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="public/money.png" type="image/x-icon" />
+    <title>TS(Tabungan_Sederhana)</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tabungan Sederhana</h1>
+
+      <!-- inputan nominal -->
+      <div id="input-nominal">
+        <form action="">
+          <h2>IN(Input_Nominal)</h2>
+          <div class="form-control">
+            <label for="tanggal">Tanggal</label>
+            <input type="date" id="tanggal" placeholder="Inputkan Tanggalnya" />
+          </div>
+          <div class="form-control">
+            <label for="nominal">Nominal</label>
+            <input type="text" id="nominal" placeholder="Jumlah Nominal" />
+          </div>
+          <button type="submit">Simpan</button>
+        </form>
+      </div>
+    </div>
+    <!-- inputan tabungan -->
+    <div class="container-table">
+      <table id="table-daftar-tabungan">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Tanggal</th>
+            <th>Nominal</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <tr>
+            <td>1</td>
+            <td>2021-08-01</td>
+            <td>10000</td>
+            <td class="button-table">
+              <!-- <button class="edit">Edit</button> -->
+              <button class="delete">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

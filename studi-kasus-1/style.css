@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ebe7e7;
+}
+
+.container {
+  width: 768px;
+  height: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(14, 140, 190);
+}
+
+#input-nominal input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+#input-nominal label {
+  font-size: 1rem;
+}
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(7, 166, 228, 0.695);
+  font-size: 1rem;
+  font-style: italic;
+}
+/* Floating label styles */
+.form-control {
+  position: relative;
+  margin: 20px 0;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.form-control label {
+  top: 15px;
+  left: 10px;
+  font-size: 1rem;
+  color: rgb(14, 140, 190);
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(14, 140, 190);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out, transform 0.3s ease;
+}
+form button:hover {
+  background-color: rgb(18, 170, 230);
+  transform: scale(1.01);
+}
+
+/* table */
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ebe7e7;
+}
+
+.container {
+  width: 768px;
+  height: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+.container-table {
+  width: 768px;
+  height: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(14, 140, 190);
+}
+.container-table h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(14, 140, 190);
+}
+
+/* Table styles */
+#table-daftar-tabungan {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  text-align: left;
+}
+
+#table-daftar-tabungan th,
+#table-daftar-tabungan td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+#table-daftar-tabungan thead {
+  background-color: rgb(14, 140, 190);
+  color: white;
+}
+
+#table-daftar-tabungan tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+#table-daftar-tabungan tbody tr:hover {
+  background-color: #f1f1f1;
+}
+#table-daftar-tabungan .button-table {
+  display: flex;
+  justify-content: space-between;
+}
+#table-daftar-tabungan button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out, transform 0.3s ease;
+  width: 100%;
+}
+#table-daftar-tabungan .edit {
+  background-color: #4caf50;
+  color: white;
+  margin-right: 5px;
+}
+#table-daftar-tabungan .edit:hover {
+  background-color: #45a049;
+}
+
+#table-daftar-tabungan .delete {
+  background-color: #f44336;
+  color: white;
+}
+#table-daftar-tabungan .delete:hover {
+  background-color: #da190b;
+}
+/* responive */
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+  .container-table {
+    width: 90%;
+    padding: 15px;
+  }
+
+  #table-daftar-tabungan {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+  .container-table {
+    width: 95%;
+    padding: 10px;
+  }
+  #table-daftar-tabungan {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+}
