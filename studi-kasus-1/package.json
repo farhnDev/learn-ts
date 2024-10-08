@@ -6,7 +6,8 @@
   "version": "1.0.0",
   "main": "dist/script.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/script.js"
   },
   "keywords": [],
   "author": "",
