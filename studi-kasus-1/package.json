@@ -4,7 +4,7 @@
   },
   "name": "studi-kasus-1",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "dist/script.js",
   "scripts": {
     "build": "tsc"
   },
