@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="public/money.png" type="image/x-icon" />
+    <title>TS(Tabungan_Sederhana)</title>
+  </head>
+  <body>
+    <div id="overlay" class="overlay"></div>
+    <div id="custom-alert" class="custom-alert">
+      <span id="custom-alert-message"></span>
+      <button id="custom-alert-close">X</button>
+    </div>
+    <div class="container">
+      <h1>Tabungan Sederhana / CatatanHutang</h1>
+      <!-- inputan nominal -->
+      <div id="input-nominal">
+        <form action="" id="form-input">
+          <h2>IN(Input_Nominal)</h2>
+          <div class="form-control">
+            <label for="why-to">Siapa</label>
+            <input type="text" id="why-to" placeholder="Catatan" />
+          </div>
+          <div class="form-control">
+            <label for="tanggal">Tanggal</label>
+            <input type="date" id="tanggal" placeholder="Inputkan Tanggalnya" />
+          </div>
+          <div class="form-control">
+            <label for="nominal">Nominal</label>
+            <input type="text" id="nominal" placeholder="Jumlah Nominal" />
+          </div>
+          <button id="submit" type="submit">Simpan</button>
+        </form>
+      </div>
+    </div>
+    <!-- inputan tabungan -->
+    <div class="container-table">
+      <table id="table-daftar-tabungan">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Siapa</th>
+            <th>Tanggal</th>
+            <th>Nominal</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+        <div class="total-nominal" id="total-nominal">
+          <h3>Total Nominal UangMu:Rp: <span id="total-amount">0</span></h3>
+          <button class="print" id="print-button">
+            <img src="public/printer.png" width="15" alt="" />
+            Print
+          </button>
+        </div>
+      </table>
+    </div>
+    <script src="dist/script.js"></script>
+  </body>
+</html>
